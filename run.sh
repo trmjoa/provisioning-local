@@ -14,11 +14,5 @@ echo -e "please make sure to edit the config.json file followed by [ENTER]" && r
 
 ansible-playbook setup.yml -i HOSTS --ask-sudo-pass  --module-path ./ansible_modules --extra-vars "@config.json"
 
-dropbox start -i > /dev/null 2>&1 &
-/opt/extras.ubuntu.com/variety/bin/variety > /dev/null 2>&1 &
-plank > /dev/null 2>&1 &
-steam > /dev/null 2>&1 &
-emacs > /dev/null 2>&1 &
-
 source ~/.bashrc
 exit 0

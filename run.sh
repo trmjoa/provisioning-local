@@ -5,7 +5,7 @@ sudo easy_install pip
 cd ~
 mkdir -p setup
 cd setup
-git clone https://github.com/JBKahn/provisioning-local.git
+git clone https://github.com/trmjoa/provisioning-local.git
 cd provisioning-local
 
 sudo pip install -r requirements.txt
